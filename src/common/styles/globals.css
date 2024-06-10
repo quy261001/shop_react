@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&family=Noto+Sans&family=Malgun+Gothic&family=Apple+SD+Gothic+Neo&family=Inter&display=swap');
+
+body {
+  font-family: 'Quantico', 'Noto Sans', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
+}
+
+.intern {
+  font-family: "Inter", "Noto Sans", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
